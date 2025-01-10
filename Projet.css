@@ -1,0 +1,33 @@
+#top{
+    display: flex;
+    padding-top: 2%;
+    padding-left : 2.5%;
+}
+
+
+#titre{
+    margin-left: 32%;
+}
+
+#BackArrow{
+    padding-top: 2.5%;
+    padding-left : 2.5%;
+    width: 3%;
+}
+#BackArrow img{
+    width: 100%;
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+#projets{
+    display: flex;
+    justify-content: center;
+}
+
+#projets a{
+    margin: 2%;
+}

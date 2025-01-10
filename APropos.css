@@ -1,0 +1,87 @@
+#top{
+    display: flex;
+}
+
+
+#titre{
+    margin-left: 15%;
+}
+
+#BackArrow{
+    padding-top: 2.5%;
+    padding-left : 2.5%;
+    width: 5%;
+}
+#BackArrow img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: Gros;
+}
+
+#contenu{
+    margin-left: 3%;
+    display: flex;
+
+}
+
+#gauche{
+    border-right: solid white 1px;
+    padding-right: 3% ;
+    margin-bottom: 10%;
+}
+
+
+
+b,h3{
+    color: rgb(255, 204, 0);
+}
+
+#Bot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+#bouttons button{
+    flex-direction: row;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: blue;
+    
+}
+
+#bouttons button:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 165);
+    border : solid 1px blue;
+    
+}
+
+#bouttons{
+    width: 100%;
+    margin-bottom: 1%;
+    
+}
+
+
+#CVFR{
+    margin-left:4% ;
+}
+
+#droite{
+    margin-left:3% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
