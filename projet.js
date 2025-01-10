@@ -13,7 +13,7 @@ const DIVPROJET = document.getElementById("tableProjet");
 
 for(i=0;i<Projet.length;i++){
     var a = i;
-    if( a % 3 === 0){
+    if( a % 4 === 0){
         var ligne = document.createElement("tr");
     }
     var col = document.createElement("td");
@@ -30,7 +30,7 @@ for(i=0;i<Projet.length;i++){
    link.appendChild(Titre);
    col.appendChild(link);
    ligne.appendChild(col);
-   if( (i+1) % 3 === 0){
+   if( (i+1) % 4 === 0){
     DIVPROJET.appendChild(ligne);
     }
    
