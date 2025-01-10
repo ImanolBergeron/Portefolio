@@ -60,14 +60,17 @@ body {
 }
 
 
-/* Espace central gris transparent */
 #centerSpace {
     position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     top: 50%;
     left: 50%;
-    width: 70%; /* Tu peux ajuster la taille */
-    height: 90%; /* Tu peux ajuster la taille */
-    background-color: rgba(128, 128, 128, 0.5); /* Gris transparent */
+    width: 70%; 
+    height: 90%;
+    background-color: rgba(128, 128, 128, 0.5);
     transform: translate(-50%, -50%);
     z-index: 1;
     border-radius: 45px;
