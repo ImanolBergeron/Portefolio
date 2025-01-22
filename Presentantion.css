@@ -1,12 +1,14 @@
 #top{
     display: flex;
     justify-content: space-between;
-    margin-right: 30%;
 }
 
-
 #titre{
-    margin-left: 15%;
+    max-width: 50%;
+    text-align: center;
+}
+#titre h2{
+    text-align: center;
 }
 
 #BackArrow{
@@ -33,13 +35,14 @@ h2{
 #contener{
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 2%;
     margin-right: 3%;
     margin-left: 3%;
 }
 
 b,h3{
     color: rgb(255, 204, 0);
+    text-align: center;
 }
 
 
@@ -50,6 +53,13 @@ b,h3{
     display: flex;
     flex-direction: column;
     max-width: 70%;
+}
+
+#gauche{
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #centerSpace {
@@ -66,6 +76,20 @@ b,h3{
 
 #Images{
     display: flex;
-    justify-content: center;
-    margin-top: 10%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+p,li{
+    margin: 2%;
+}
+
+ul{
+    text-decoration: none;
+    padding-inline-start : 0;
+    margin : 0;
+}
+
+#Images img{
+    max-width : 25%;
 }

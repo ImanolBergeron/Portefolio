@@ -10,32 +10,34 @@
 <body>
     <div id="centerSpace">
         <div id="top">
-            <a href="Projet.php" class="explore-linkBack" id="BackArrow">
+            <a href="Projet.html" class="explore-linkBack" id="BackArrow">
                 <img src="BackArrow.webp" alt="back">
             </a>
             <div id="titre">
-                <h1 >PROJECT'S NAME</h1>
-                <h2> QUick presentation of the project</h2>
+                <h1 id="name">PROJECT'S NAME</h1>
+                <h2 id="quickPresentation"> QUick presentation of the project</h2>
             </div>
+            <div></div>
         </div>
         <div id="contener">
             <div id="contenu">
                 <div id="gauche">
                     <h3>Global information : </h3>
-                    <p><b>Languages : </b>
-                        <br>ex : JAVA
-                    </p> 
-                    <p><b>Environment :</b>
-                        <br>ex : VSCode
-                    </p>
-                    <p><b>Soft skills : </b>
-                        <br>ex : team Work
-                    </p>  
+
+                    <p><b>Languages / Library : </b></p> 
+                    <p id="Language">ex : JAVA</p>
+
+                    <p><b>Environment :</b></p>
+                    <p id="Environment">ex : VSCode</p>
+
+                    <p><b>Gained skills : </b></p> 
+                    <ul id="SoftSkill">
+                    </ul> 
 
                 </div>
                 <div id="droite">
                     <h3>Project's Description : </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p id="ProjectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sit amet sem rutrum, luctus nisl in
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sit amet sem rutrum, luctus nisl in
@@ -59,12 +61,12 @@
             </div>
         </div>
         <div id="Images">
-            <img src="#" alt="img representant le projet">
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
     <script src="etoile.js"></script>
+    <script src="variable.js"></script>
+    <script>console.log(document.cookie)</script>
 </body>
 </html>
