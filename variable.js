@@ -20,41 +20,64 @@ const variable =[
                             "this project trying to adjust the 'gravity' of the game but in the end we managed to get it right.",
         Lien:"https://github.com/ImanolBergeron/Pacman",
         Images:[
-            'imageProjet/Pacman.png',
-            'imageProjet/2048.png',
-            'imageProjet/Apexdle.png'
+            'imageProjet/Pacman-Accueil.png',
+            'imageProjet/Pacman-Name.png',
+            'imageProjet/Pacman.png'
         ]
     },
     {
         name: "2048",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"a replica of the 2048 web game.",
+        Language:"Python,Pygame",
+        Environment:"VSCode,Thony",
         SoftSkill:[
-            'adead',
-            'adadaz'
+            'Clear and open dialogue about goals, progress, and challenges.',
+            'Coding in python and using Pygames Librairy',
+            'Ensuring the game looks, feels, and functions as intended.'
         ],
-         ProjectDescription:"",
-         Lien:"",
+         ProjectDescription:"This Project is as the name implies, a simple replica of the 2048 web game. I made this Project in HightSchool with 2 friend of mine."+
+                            " We took the initial principle of 2048, changed the fore and back-ground and the sprits of all the differents Number."+
+                            "To explain quckly the game, you have a 4 by 4 square in which is nothing or a pair number. the number goes from 2 to 2048."+
+                            "the objective of the players is to fuse the numbers on the board to make them grow, by changing the gravity of the field."+
+                            "the twist is that you can only fuse a number with that same number and that the only number that can spawn are 2s and 4s."+
+                            "the numbers spawn on every change of direction that the players gives to the gravity.the objective of this game is to get to the number "+
+                            "2048 and do the highest score (each fusison gives you the amount fused in score point)"+
+                            "We had a lot of difficulties beacause this was our first real project and we had juste beggin learning Python and didn't "+
+                            "really knew how to use Pygames.thanks to that Project, my fundamental in python increased a lot and made me love Computer Science.",
+         Lien:"https://github.com/ImanolBergeron/2048",
          Images:[
-            'adead',
-            'adadaz'
+            'imageProjet/2048-Name.png',
+            'imageProjet/2048.png',
+            'imageProjet/2048-Score.png'
         ]
     },
     {
         name: "Apexdle",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"Small web game based on Apex legend's Lore",
+        Language:"HTML/CSS/JavaScript",
+        Environment:"VSCode",
         SoftSkill:[
-            'adead',
-            'adadaz'
+            'Quickly learning new tools, methods, or concepts as needed',
+            'advanced knowledge of the HTML/CSS/JS Languages',
+            'Double-checking code, graphics, and interactions for quality'
         ],
-        ProjectDescription:"",
-        Lien:"",
+        ProjectDescription:"Apexdle is a Website that isn't published yet because I think It's uncomplet yet however functionnal."+
+                            "It's the project I'm the most proud of because of the work I've done on it And the time I passed On trying to understand How JavaScript work "+
+                            "And thinking about algorithm to make the website work. This Project consiste of 5 small riddle game based on the Game Apex Legend's Lore."+
+                            "The first riddle there is is Guess the legend. the Players have to Guess the legend based on the info the website give automatically when the Players "+
+                            "make a guess.The different hint are :  the gender,the role and the released date. The second mini-game is Guess the ability. this one's Objective is "+
+                            "to guess the Legend based on it's ability Icone. the third one is Guess the Weapon. As it's name tell, you will have to guess the weapon's name "+
+                            "based on it's image.The fourth one is guess the Quote in which the player has to guess the legend based on it's Quote.the last one is Guess the "+
+                            "Location.Sadly this one isn't implemented yet but when it does, It will print a picture of a location on a map, and the players will have to find "+
+                            "the map and pinpoint the location where the picture was taken (a bit like geoGuessr). As I said the Website Isn't Complete but I still have a lot of fun"+
+                            " implementing the new game, discovering new javaScript function and learning how to use them.This Project is a solo project and made me realise how I was"+
+                            "Lacking in Web Development. I am still actively searching for solution to a lot of problem I have developping this website but I think I will come throught"+
+                            "and eventualy publish it making me also learn a bit of devOps at the same time.",
+        Lien:"https://github.com/ImanolBergeron/Apexdle-PHP",
         Images:[
-            'adead',
-            'adadaz'
+            'imageProjet/Apexdle-GuessLegend.png',
+            'imageProjet/Apexdle.png',
+            'imageProjet/Apexdle-GuessAbility.png'
         ]
     },
     {
@@ -63,7 +86,7 @@ const variable =[
         Language:"",
         Environment:"",
         SoftSkill:[
-            'adead',
+            'Collaborating effectively to divide tasks and support one another',
             'adadaz'
         ],
         ProjectDescription:"",
@@ -173,9 +196,11 @@ variable.forEach(projet=>{
         });
         EltDescription.textContent = projet.ProjectDescription;
         if(projet.Lien != ""){
+            let sautLigne = document.createElement('br');
             let lienProject = document.createElement('a');
             lienProject.href = projet.Lien;
             lienProject.textContent = "You can see the whole project at : " + projet.Lien;
+            EltDescription.appendChild(sautLigne);
             EltDescription.appendChild(lienProject);
         }
         
