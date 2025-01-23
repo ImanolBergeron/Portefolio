@@ -82,9 +82,9 @@ const variable =[
     },
     {
         name: "CarbonTracker",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"C# groupe Project To get Data on Pollution",
+        Language:"C#/SQL/python, pyplot",
+        Environment:"VSCode, Win'Design, Visual Studio",
         SoftSkill:[
             'Collaborating effectively to divide tasks and support one another',
             'adadaz'
@@ -98,28 +98,39 @@ const variable =[
     },
     {
         name: "Unideckbuilders",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"a 2 player Card Game with building",
+        Language:"C#, .net",
+        Environment:"Visual Studio, GIT",
         SoftSkill:[
-            'adead',
-            'adadaz'
+            "Building an UML with a project's plan",
+            'Handling Branches, Merges and rebase while using git',
+            'Knowledge of Coding C# with .NET'
         ],
-        ProjectDescription:"",
+        ProjectDescription:"Unideckbuilders is a multiplayers card game where the cards are building and the objective is to drop the biggest number of buildings "+
+                            "possible to get to highest score.The Game Is Played with a type of Phase Game with 3 distinct phase : the drawing phase, the building phase and "+
+                            "lastly the discard phase. During the Drawing phase the player will fill his hand with new cards. then in the building phase, the players will build "+
+                            "the buildings he have in his hand and can build. laslty during the last phase, the player will discard any card he has that he judges unusfull."+
+                            "The game features three card types: Building cards, which boost scores and may require resources or other buildings; Resource cards, used to meet "+
+                            "building requirements; and Action cards, which provide rare temporary or permanent benefits. Key effects include canExchange (swap cards from hand and "+
+                            "draw new ones), DrawOncePerTurn (draw a card each turn), DrawFromDiscardOncePerTurn (draw from the discard pile), OneMoreCard (increase hand size), "+
+                            "PlayAgain (refill hand), ProducesOne (reduce resource requirements), and Substitute (temporarily provide unlimited resources)."+
+                            "this game was a 2-man team project. I did that project at College and We hade to use Git to be able to code at the same time.This implies dealing with "+
+                            "branches,merges, rebase,etc... This project was also Using .net allowing me to see how the front and the back are connected together and how to manage "+
+                            "that connexion so that the application works without problems.",
         Lien:"",
         Images:[
-            'adead',
-            'adadaz'
+            'imageProjet/Unideckbuilder-UML.png',
         ]
     },
     {
         name: "Labyrinth",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"Java game where you have to get out of a labiryth",
+        Language:"JAVA,JavaFX",
+        Environment:"NetBeans",
         SoftSkill:[
-            'adead',
-            'adadaz'
+            'Managing a graphic interface with JavaFX',
+            'Class Managment, class Extend and Implement',
+            ''
         ],
         ProjectDescription:"",
         Lien:"",
@@ -130,11 +141,11 @@ const variable =[
     },
     {
         name: "Towa",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        quickPresentation:"16 x 16 board game and AI Playing it",
+        Language:"JAVA,JavaFX",
+        Environment:"NetBeans",
         SoftSkill:[
-            'adead',
+            'adapting to already existing code and upgrading it',
             'adadaz'
         ],
         ProjectDescription:"",
@@ -145,13 +156,14 @@ const variable =[
         ]
     },
     {
-        name: "Odomo",
-        quickPresentation:"",
-        Language:"",
-        Environment:"",
+        name: "IUT's Pixel War",
+        quickPresentation:"Pixel War Inspired by reddit's pixel war",
+        Language:"JavaScript",
+        Environment:"VSCode",
         SoftSkill:[
-            'adead',
-            'adadaz'
+            'asking and updating info to an API RESTful ',
+            'Usage of JavaScript Promise function (fetch)',
+            ''
         ], 
         ProjectDescription:"",
         Lien:"",
