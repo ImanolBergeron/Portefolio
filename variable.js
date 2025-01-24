@@ -83,13 +83,23 @@ const variable =[
     {
         name: "CarbonTracker",
         quickPresentation:"C# groupe Project To get Data on Pollution",
-        Language:"C#/SQL/python, pyplot",
+        Language:"C#/.Net/SQL/python, pyplot",
         Environment:"VSCode, Win'Design, Visual Studio",
         SoftSkill:[
             'Collaborating effectively to divide tasks and support one another',
-            'adadaz'
+            'Working on a project that uses a lot of different languages',
+            'Knowing how classical gestion work and apply it'
         ],
-        ProjectDescription:"",
+        ProjectDescription:"CarbonTracker was a five people groupe project that linked a lot of course that we did in our first College year.The Objective of this project was to make an app, That "+
+                            "Gives data and comparison in the evironment domains. this could go from temperature to change of humidity in air and the size of iceberges.To do that,"+
+                            "we had to work on an app to wich we had to give data as csv form wich was after transfered in a dataBase."+
+                            "Base on thes data and on the filters of the User, the app had to print a graphic of the evolution of thes data as time passes."+
+                            "We had to code this app in C# and we used Python to transfer the csv file's data in the dataBase. We then used pyplot to make the graphics and give them "+
+                            "to the app. The C# was mainly use to do front, navigating between the pages and printing the actual graphics.During this project we had to have some Gestion" +
+                            "side in it. We had to follow the waterFall methode meaning a lot of other report than juste the app so we had to seperate efficiently the differetn tasks. "+
+                            "I was assigned to the C# part because I had a lot of ease on this language and I liked it. We even implemented a way for the user to download the grapphics' image "+
+                            "If wanted. This project was a lot of fun and I liked beeing part of such a team.We had a lot of misunderstanding but with communication we still managed to "+
+                            "pull this throught.",
         Lien:"",
         Images:[
             'adead',
