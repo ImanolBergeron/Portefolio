@@ -181,6 +181,32 @@ const variable =[
             'adead',
             'adadaz'
         ]
+    },
+    {
+        name: "RobotCup",
+        quickPresentation:"Developping a Website for the robotCup",
+        Language:"PHP/JS/SQL, symfony",
+        Environment:"VSCode",
+        SoftSkill:[
+            'Working using the agile method',
+            '',
+            ''
+        ], 
+        ProjectDescription:"RobotCup is a Symfony webapp to manage robot football championships. The website allows full management of the championship, from the creation "+
+                            "of the championship to the management of the teams and the matches.The idea is that a user registers his team on the website, then the public can "+
+                            "see the outcome or updates of any match in any championship in real time. To begin with, a user has to register and then the admin can grant him the "+
+                            "organizer role. The organizer can then create a championship, create time slots and fields on which a match could be played, validate teams and automatically"+
+                            " generate the full championship. The organizer can also update the score of the match and the website will automatically update the ranking of the championship."+
+                            " The organizer can also update the score of the match and the website will automatically update the ranking of the championship.For example in a match between two "+
+                            "teams, the organizer can update the goals of the blue team to 3 and set the victory to the blue team, which will be automatically updated in the ranking."+
+                            "This is the biggest project I've done so far, it was a real challenge to do it, but it was so fun to do.  We did this project with the agile method, divided into 3 "+
+                            "sprints. We discussed with the client to know what he wanted, we did the analysis, the conception, the realization, the database and the tests. We also produced a full"+
+                            " documentation on how to use or continue the project. We also did demos to the Product Owner at the end of each sprint to show him advancements and have some feedback.",
+        Lien:"",
+        Images:[
+            'adead',
+            'adadaz'
+        ]
     }
 ];
 

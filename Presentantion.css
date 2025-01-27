@@ -47,13 +47,34 @@ b,h3{
 }
 
 
-#droite{
+#droite {
     border-left: solid white 1px;
-    margin-left:3% ;
+    margin-left: 3%;
     padding-left: 3%;
     display: flex;
     flex-direction: column;
     max-width: 70%;
+    height: 50vh; /* Hauteur fixe */
+    overflow-y: auto; /* Active le scroll vertical */
+}
+
+/* Style de la barre de défilement pour plus d'esthétique */
+#droite::-webkit-scrollbar {
+    width: 8px;
+}
+
+#droite::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+#droite::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#droite::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.9);
 }
 
 #gauche{
