@@ -204,8 +204,11 @@ const variable =[
                             " documentation on how to use or continue the project. We also did demos to the Product Owner at the end of each sprint to show him advancements and have some feedback.",
         Lien:"",
         Images:[
-            'adead',
-            'adadaz'
+            'imageProjet/RobotCup-inscription.png',
+            'imageProjet/RobotCup-GestionUser.png',
+            'imageProjet/RobotCup-TableauScore.png',
+            'imageProjet/RobotCup-Planning.png',
+            'imageProjet/RobotCup-GestionMatch.png'
         ]
     }
 ];

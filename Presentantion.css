@@ -108,6 +108,10 @@ b,h3{
     margin-top: 2%;
 }
 
+#Images img{
+    margin : 1%;
+}
+
 p,li{
     margin: 2%;
 }
