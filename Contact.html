@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imanol Bergeron Portefolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div id="centerSpace">
+        <div id="top">
+            <a href="menuPrincipal.html" class="explore-linkBack" id="BackArrow">
+                <img src="BackArrow.webp" alt="back">
+            </a>
+
+            <div id="title">
+                <h1>Contacts</h1>
+            </div>
+            <div></div>
+        </div>
+        <div id="contactContainer">
+
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">subject</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" id="sendButton">send</button>
+        <p id="statusMessage"></p>
+    </form>
+</div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="etoile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init({
+            publicKey: "pyr5gE3cYbEUaFqCf",
+        });
+    })();
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contact-form");
+        const status = document.getElementById("statusMessage");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            status.textContent = "Envoi en cours...";
+            status.style.color = "white";
+
+            emailjs.sendForm("service_cypsi7z", "template_cmel6sd", form)
+                .then(function () {
+                    status.textContent = "Message envoyé avec succès !";
+                    status.style.color = "lightgreen";
+                    form.reset();
+                }, function (error) {
+                    console.error("FAILED...", error);
+                    status.textContent = "Erreur lors de l'envoi. Réessayez plus tard.";
+                    status.style.color = "red";
+                });
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,12 +1,13 @@
 #top{
     display: flex;
     justify-content: space-between;
-    margin-right: 30%;
+    
 }
 
 
 #titre{
-    margin-left: 15%;
+    display : flex;
+    flex-direction: column;
 }
 
 #BackArrow{
@@ -37,7 +38,7 @@ h2{
 #gauche{
     border-right: solid white 1px;
     padding-right: 3% ;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
 }
 
 
